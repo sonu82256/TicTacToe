@@ -1,0 +1,31 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.winner {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
